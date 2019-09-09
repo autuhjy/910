@@ -1,0 +1,19 @@
+{
+	"name": "linkedService10",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "Db2",
+		"typeProperties": {
+			"server": "1",
+			"database": "1",
+			"authenticationType": "Basic",
+			"username": "1",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJjZTdhYjM4NS1iZGUxLTRhNWEtYmFmNS0wNjhkOTUyYzcxNjEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime11",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

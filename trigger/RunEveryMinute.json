@@ -1,0 +1,23 @@
+{
+	"name": "RunEveryMinute",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Month",
+				"interval": 1,
+				"startTime": "2019-06-19T03:56:00Z",
+				"endTime": "2019-09-21T03:56:00Z",
+				"timeZone": "UTC",
+				"schedule": {
+					"monthDays": [
+						20
+					]
+				}
+			}
+		}
+	}
+}

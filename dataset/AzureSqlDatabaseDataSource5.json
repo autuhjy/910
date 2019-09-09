@@ -1,0 +1,13 @@
+{
+	"name": "AzureSqlDatabaseDataSource5",
+	"properties": {
+		"description": "Connection to your source data store.",
+		"linkedServiceName": {
+			"referenceName": "linkedService1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable"
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

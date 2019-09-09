@@ -1,0 +1,13 @@
+{
+	"name": "DataSource1",
+	"properties": {
+		"description": "Connect to your data source store.",
+		"linkedServiceName": {
+			"referenceName": "linkedService8",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable"
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
