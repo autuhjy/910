@@ -1,0 +1,14 @@
+{
+	"name": "linkedService14",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDataLakeStore",
+		"typeProperties": {
+			"dataLakeStoreUri": "https://lindadl.azuredatalakestore.net/webhdfs/v1",
+			"tenant": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+			"subscriptionId": "7b68d2b5-dfbe-46e1-938f-98ed143b7953",
+			"resourceGroupName": "linda"
+		}
+	}
+}
